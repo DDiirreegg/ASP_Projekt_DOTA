@@ -1,4 +1,4 @@
-﻿using ASP_Projekt_DOTA.Date;
+﻿using ASP_Projekt_DOTA.Date.Enum;
 using System.ComponentModel.DataAnnotations;
 
 namespace ASP_Projekt_DOTA.Models
@@ -14,7 +14,10 @@ namespace ASP_Projekt_DOTA.Models
         public int AgilityAttributes { get; set; }
         public int IntelligenceAttributes { get; set; }
         public CharacterRole Role { get; set; }
-        public string Bio { get; set; }        
+        public string Bio { get; set; }
+
+        //Relationship
+        public List<Decoration_Character> Decorations_Characters { get; set; }
 
 
     }

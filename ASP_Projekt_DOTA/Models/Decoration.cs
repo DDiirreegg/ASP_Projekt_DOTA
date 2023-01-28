@@ -8,9 +8,9 @@ namespace ASP_Projekt_DOTA.Models
         public int DecorationId { get; set; }
 
         public string ProfilePictureURL { get; set; }
-        public string FullName { get; set; }
-        public string CharacterName { get; set; }
+        public string FullName { get; set; }          
         public double DecorationPrice { get; set; }
-
+        //Relationships
+        public List<Decoration_Character> Decorations_Characters { get; set; }
     }
 }
