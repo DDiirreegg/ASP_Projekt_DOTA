@@ -28,5 +28,7 @@ namespace ASP_Projekt_DOTA.Date
         public DbSet<Decoration> Decorations { get; set; }
         public DbSet<Decoration_Character> Decorations_Characters { get; set; }
         public DbSet<Item> Items { get; set; }
+        public DbSet<User> Users { get; set; }
+        public DbSet<Cart> Carts { get; set; }
     }
 }
